@@ -20,7 +20,7 @@ Main folder
 > *: These folders are automatically created and do not require any intervention.
 
 The content of each folder is as follows:
-- **01DSM:** Original DSM files,
+- **01DSM:** Original DSM files of the river,
 - **02IberOutput:** Iber's simulation RASTER output. It can be any type of output (discharge, water height, etc.), 
 - **03Masks:** Mask images for water surface. Pixels with water with value equal to 1. Dry pixels with value 0.
 - **04XS:**
