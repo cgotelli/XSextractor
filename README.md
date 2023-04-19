@@ -1,6 +1,8 @@
 # XSextractor
 This script automatically retrieves elevation data from river cross sections (XS). It achieves this by using Iber's [^1] river simulation to obtain a water network, which serves as an estimation of the Thalweg. The program then automatically calculates cross sections along the Thalweg and exports the elevation of each cross section as a separate file. To operate, the program requires the river's DEM file and Iber's raster output as inputs.
 
+:warning: **It requires RivGraph to work.** This package is available [here](https://github.com/VeinsOfTheEarth/RivGraph).
+
 Files are stored inside different folders, keeping the original name of the DSM as ID. The directory tree should be:
 ```
 Main folder
